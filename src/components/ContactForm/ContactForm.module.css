@@ -1,0 +1,54 @@
+.contactForm {
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactLabel {
+  font-size: 20px;
+  color: #59514F;
+  margin-bottom: 5px;
+}
+
+.contactInput {
+  min-width: 200px;
+  outline: none;
+  height: 30px;
+  margin-top: 5px;
+  border: #59514F 2px solid;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.contactInput:hover,
+.contactInput:focus {
+  border: #DF9A81 2px solid;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.contactButton {
+  background-color: #DF9A81;
+  border: #59514F 1px solid;
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #59514F;
+  font-family: 'Kalam', cursive;
+  font-weight: bolder;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  transition: transform .15s;
+}
+
+.contactButton:hover,
+.contactButton:focus {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
